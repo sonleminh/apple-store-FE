@@ -2,8 +2,8 @@ import axios from 'axios';
 // import queryString from 'query-string';
 
 const axiosClient = axios.create({
-  // baseURL: 'http://localhost:4001' || 'https://apple-store-api.onrender.com',
-  baseURL: 'http://localhost:4001',
+  baseURL: 'https://apple-store-api.onrender.com',
+  // baseURL: 'http://localhost:4001',
   headers: {
     'content-type': 'application/json',
   },
