@@ -1,0 +1,37 @@
+:root {
+    --primary: #ed1c24;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    ::selection {
+        color: #fff;
+        background: var(--primary);
+    }
+}
+
+a {
+    text-decoration: none;
+    transition: .3s ease-out;
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.btn {
+    background-color: var(--primary);
+}
+
+
